@@ -1,0 +1,27 @@
+GET http://localhost:4000/api/photos
+
+###
+GET http://localhost:4000/api/photos/60d90f40c5c5040164a4eecc
+
+###
+DELETE http://localhost:4000/api/photos/60d90f40c5c5040164a4eecc
+
+###
+PUT http://localhost:4000/api/photos/60da10e89f50b60064996576
+
+content-type: application/json
+
+{
+    "title": "Some changed title",
+    "description": "Some changed description"
+}
+
+###
+PUT http://localhost:4000/api/photos/60da11029f50b60064996578
+
+content-type: application/json
+
+{
+    "title": "Some changed title",
+    "description": "Some changed description"
+}
