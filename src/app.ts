@@ -1,6 +1,6 @@
 import express from 'express'
 import morgan from 'morgan'; 
-import path from 'path'
+import path from 'path';
 
 const app = express();
 
